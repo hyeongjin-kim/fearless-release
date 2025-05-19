@@ -45,7 +45,7 @@ onMounted(async () => {
 });
 
 async function Get_nickname(){
-  const res = await fetch(`/nicknames.json`);
+  const res = await fetch(`nicknames.json`);
   const data = await res.json();
   Nickname_Map.value = data;
 }
