@@ -128,8 +128,7 @@ function select_confirm(choice){
     }
   }
   State_Store.next_state();
-  if(State_Store.state.phase != 'Done') Timer_Store.startTimer();
-  else Timer_Store.timeExpired();
+  Timer_Store.timeExpired();
 }
 
 function champ_filter(Filtered_List) {
