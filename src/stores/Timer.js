@@ -25,6 +25,7 @@ export const UseTimerStore = defineStore('Timer', ()=>{
             clearInterval(timerInterval);
             timerInterval = null;
         }
+        timer.value = 50;
         isTiming.value = false;
     }
 

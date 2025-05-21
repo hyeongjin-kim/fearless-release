@@ -127,8 +127,12 @@ function select_confirm(choice){
       return;
     }
   }
-  State_Store.next_state();
-  Timer_Store.startTimer();
+  const phase = State_Store.next_state();
+
+  if (phase !== 'Done' && phase !== 'Ready') {
+    Timer_Store.startTimer();
+  }
+  else Timer_Store.timeExpired();
 }
 
 function champ_filter(Filtered_List) {
