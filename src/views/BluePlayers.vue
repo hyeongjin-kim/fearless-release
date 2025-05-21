@@ -59,7 +59,7 @@
   }
   .championiller{
     box-sizing: border-box;
-    width: 4.4vw;
+    width: 8.8vw;
     height: auto;
   }
   .championiller.active{

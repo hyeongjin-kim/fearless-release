@@ -51,7 +51,7 @@
     flex-wrap: nowrap;
   }
   .championiller{
-    width: 4.4vw;
+    width: 8.8vw;
     height: auto;
     box-sizing: border-box;
   }
