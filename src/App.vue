@@ -98,8 +98,8 @@ function handleClick() {
     flex-direction: column;
   }
   .Logo{
-    width: auto;
-    height: 20vh;
+    width: 12vw;
+    height: auto;
   }
   .version{
     font-size: 20px;
