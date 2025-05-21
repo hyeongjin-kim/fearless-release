@@ -36,6 +36,7 @@
     height: 8vh + 24;
     flex-direction: column;
     flex-wrap: nowrap;
+    align-items: end;
   }
   .banned_champion {
     position: relative;
