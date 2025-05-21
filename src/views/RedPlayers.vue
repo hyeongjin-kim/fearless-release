@@ -46,7 +46,7 @@
 <style scoped>
   .Red_Player{
     display: flex;
-    width: 44vw;
+    width: 40vw;
     height: auto;
     flex-wrap: nowrap;
   }

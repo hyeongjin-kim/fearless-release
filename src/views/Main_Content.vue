@@ -89,6 +89,7 @@ function cleargame(){
   Red_Ban_Store.reset();
   Blue_Pick_Store.reset();
   Red_Pick_Store.reset();
+  Timer_Store.timeExpired();
 }
 
 function isDisabled(championId) {
