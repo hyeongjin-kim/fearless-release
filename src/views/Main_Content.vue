@@ -64,7 +64,6 @@ function GameConfirm(){
   Red_Ban_Store.reset();
   Blue_Pick_Store.reset();
   Red_Pick_Store.reset();
-  Timer_Store.startTimer();
 }
 
 function Swap(){
@@ -128,7 +127,7 @@ function select_confirm(choice){
     }
   }
   State_Store.next_state();
-  Timer_Store.timeExpired();
+  Timer_Store.startTimer();
 }
 
 function champ_filter(Filtered_List) {
