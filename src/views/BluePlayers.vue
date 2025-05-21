@@ -53,14 +53,14 @@
 <style scoped>
   .Blue_Player{
     display: flex;
-    width: auto;
-    height: 25vh;
+    width: 44vw;
+    height: auto;
     flex-wrap: nowrap;
   }
   .championiller{
     box-sizing: border-box;
-    width: auto;
-    height: 25vh;
+    width: 4.4vw;
+    height: auto;
   }
   .championiller.active{
     border-color: red;
